@@ -1,7 +1,8 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const port = 3000;
+
+const port = process.env.PORT ||3000;
 
 const appInfo = require('./database/bd_info')
 
@@ -28,6 +29,6 @@ app.get('/api', (req,res)=>{
 
 })
 
-app.listen(port, ()=>{
+app.listen(port, "0.0.0.0", ()=>{
     console.log(`Api ouvindo na porta ${port}`)
 })
