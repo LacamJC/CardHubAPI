@@ -1,9 +1,10 @@
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize("railway", "root", "b53-66cA2bc214cffAgDcgh3dBAe-2f-", {
+
+const sequelize = new Sequelize("CardHubApi", "ramajo", "123456", {
     dialect: "mysql",
-    host: "viaduct.proxy.rlwy.net",
-    port: 49332
+    host: "localhost",
+    port: 3306
 })
 
 module.exports = sequelize;

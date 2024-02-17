@@ -1,17 +1,19 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
+const rotas = require('./routes/router')
 
 const port = process.env.PORT ||3000;
 
 const appInfo = require('./database/bd_info')
 
 app.use(cors());
+app.use(express.static(__dirname +'/public'))
+app.use('/', rotas)
+app.set('views engine', 'ejs');
 
-app.get('/', (req,res)=>{
-    res.send("<h1>Seja bem vindo a minha API !</h1>")
-    
-})
+
+
 
 app.get('/api', (req,res)=>{
     appInfo.findAll().then(result=>{
