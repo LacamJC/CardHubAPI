@@ -1,0 +1,56 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  border: 1px solid black;
+  max-width: 800px;
+  min-height: 99vh;
+  margin: auto;
+}
+.main .titulo {
+  font-size: 2rem;
+  text-align: center;
+  margin: 20px 0px;
+}
+.main .artigo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main .artigo section {
+  max-width: 50%;
+}
+@media screen and (max-width: 600px) {
+  .main .artigo section {
+    max-width: 90%;
+  }
+}
+.main .artigo section .subtitulo {
+  text-align: start;
+  margin-left: 10px;
+  font-size: 1.6rem;
+}
+.main .artigo section .paragrafo {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+}
+.main .artigo .lista {
+  max-width: 300px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  padding: 10px 20px;
+}
+.main .artigo .lista .h3 {
+  font-size: 1.5rem;
+}
+.main .artigo .lista .lista__item {
+  list-style-position: inside;
+}/*# sourceMappingURL=main.css.map */
