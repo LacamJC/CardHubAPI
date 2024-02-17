@@ -9,6 +9,11 @@ const appInfo = database.define('appInfo', {
         // unique : true
     },
 
+    url_img:{
+        type: Sequelize.STRING,
+        allowNull : false,
+    },
+
     alt_txt:{
         type: Sequelize.STRING,
         allowNull: false
