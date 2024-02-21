@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 
 
-const sequelize = new Sequelize("CardHubApi", "ramajo", "123456", {
+const sequelize = new Sequelize("CardHubApi", "root", "", {
     dialect: "mysql",
     host: "localhost",
     port: 3306
