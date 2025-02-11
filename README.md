@@ -1,4 +1,3 @@
-Aqui está o **README.md** para o seu projeto **CardHubAPI** no formato solicitado:
 
 ```markdown
 # 🖥️ CardHubAPI
