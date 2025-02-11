@@ -1,5 +1,5 @@
 
-```markdown
+
 # 🖥️ CardHubAPI
 
 Projeto em **Node.js** para criação de uma API que fornece dados sobre aplicações web como Facebook, Instagram, YouTube, entre outras.
@@ -84,4 +84,3 @@ Este projeto está sob a licença **MIT**. Você pode usá-lo, modificá-lo e di
 ---
 
 Feito por [LacamJC](https://github.com/LacamJC)
-```
